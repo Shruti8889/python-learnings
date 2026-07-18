@@ -28,6 +28,5 @@ if len(password)<8:
 else:
     print ("Test Passed.")
 
-
 # 6. PRACTICE TASK 3: Bug Test - If age = "24", then print(age + 5) - Observe the error
 print(age + 5)
