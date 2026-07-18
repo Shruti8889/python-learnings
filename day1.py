@@ -19,7 +19,7 @@ Bonus = 5
 print("Total Salary This Month:", Salary + Bonus)
 print("Password Length", len(password))
 
-# 4. PRACTICE TASK 1: Print the above variables one line 
+# 4. PRACTICE TASK 1: Print the above variables in one line 
 print(f"User: {username} | Pass: {password} | Valid: {is_valid}")
 
 # 5. PRACTICE TASK 2: Password check - If password length is < 8 then print "Test Failed: Password too short." Else print "Test Passed".
