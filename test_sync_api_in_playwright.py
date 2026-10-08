@@ -4,11 +4,11 @@
 from playwright.sync_api import Page, expect
 
 def test_verifyPageUrl(page:Page):
-    page.goto("https://www.nopcommerce.com/")
+    page.goto("https://www.nopcommerce.com/en")
     myUrl = page.url
     print("URL of the Application: ", myUrl)
 
-    expect(page).to_have_url("https://www.nopcommerce.com/")
+    expect(page).to_have_url("https://www.nopcommerce.com/en")
 
 
 def test_verifyPageTitle(page:Page):
